@@ -121,7 +121,7 @@ function Particle(x, y) {
     while (this.coordinateCount--) {
         this.coordinates.push([this.x, this.y]);
     }
-    this.angle = random(0, Math.PI * 2);
+    this.angle = random(0, Math.PI * 5);
     this.speed = random(1, 10);
     this.friction = 0.95;
     this.gravity = 1;
